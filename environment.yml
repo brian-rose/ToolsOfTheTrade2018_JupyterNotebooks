@@ -6,4 +6,5 @@ dependencies:
   - matplotlib
   - xarray
   - cartopy
-  - pandas 
+  - pandas
+  - ffmpeg 
