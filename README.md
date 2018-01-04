@@ -19,7 +19,15 @@ and then do this from your favorite terminal:
 ```
 git clone https://github.com/brian-rose/ToolsOfTheTrade2018_JupyterNotebooks.git
 cd ToolsOfTheTrade2018_JupyterNotebooks
-conda create --name tools --file environment.yml
+conda env create --name tools --file environment.yml
 source activate tools
 jupyter notebook
+```
+
+This will let you run the examples in a self-contained environment without affecting your default Python installation.
+
+You can switch back to your default Python within the same terminal session by doing
+
+```
+source deactivate
 ```

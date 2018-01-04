@@ -7,4 +7,5 @@ dependencies:
   - xarray
   - cartopy
   - pandas
-  - ffmpeg 
+  - ffmpeg
+  - jupyter
